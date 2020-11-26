@@ -15,7 +15,7 @@ import UIKit
 
 @IBDesignable public class PianoKeyboard: UIView {
 
-    static let minNumberOfKeys = 12
+    static let minNumberOfKeys = 36
     static let maxNumberOfKeys = 61
     
     @objc public weak var delegate: PianoKeyboardDelegate?

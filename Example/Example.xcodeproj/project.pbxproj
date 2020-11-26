@@ -19,11 +19,11 @@
 		4EEE354B1CEBA0B500EAD308 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEE354A1CEBA0B500EAD308 /* ViewController.swift */; };
 		4EEE354E1CEBA0B500EAD308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEE354C1CEBA0B500EAD308 /* Main.storyboard */; };
 		4EEE35501CEBA0B500EAD308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EEE354F1CEBA0B500EAD308 /* Assets.xcassets */; };
-		4EEE35531CEBA0B500EAD308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEE35511CEBA0B500EAD308 /* LaunchScreen.storyboard */; };
 		4EF5317C24E68F1400A9A672 /* FasciaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5317B24E68F1400A9A672 /* FasciaView.swift */; };
 		4EF5317E24E694B200A9A672 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5317D24E694B200A9A672 /* Demo.swift */; };
 		4EF5318624E69B7000A9A672 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5318524E69B7000A9A672 /* ExampleUITests.swift */; };
 		4EF5319624E7280D00A9A672 /* UITestsHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5319524E7280D00A9A672 /* UITestsHelpers.swift */; };
+		CE5924A8256FD71B008F2A0D /* Ronome in Resources */ = {isa = PBXBuildFile; fileRef = CE5924A7256FD71B008F2A0D /* Ronome */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 4EEE35441CEBA0B500EAD308;
 			remoteInfo = Example;
+		};
+		CE5924A1256FD6C4008F2A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE59249B256FD6C4008F2A0D /* Ronome.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAD719DB1BEFDAB700243A05;
+			remoteInfo = Ronome;
+		};
+		CE5924A3256FD6C4008F2A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE59249B256FD6C4008F2A0D /* Ronome.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAD719EF1BEFDAB800243A05;
+			remoteInfo = RonomeTests;
+		};
+		CE5924A5256FD6C4008F2A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE59249B256FD6C4008F2A0D /* Ronome.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAD719FA1BEFDAB800243A05;
+			remoteInfo = RonomeUITests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -61,7 +82,6 @@
 		4EEE354A1CEBA0B500EAD308 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4EEE354D1CEBA0B500EAD308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EEE354F1CEBA0B500EAD308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4EEE35521CEBA0B500EAD308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EEE35541CEBA0B500EAD308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EF5317B24E68F1400A9A672 /* FasciaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FasciaView.swift; sourceTree = "<group>"; };
 		4EF5317D24E694B200A9A672 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
@@ -69,6 +89,8 @@
 		4EF5318524E69B7000A9A672 /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		4EF5318724E69B7000A9A672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EF5319524E7280D00A9A672 /* UITestsHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestsHelpers.swift; sourceTree = "<group>"; };
+		CE59249B256FD6C4008F2A0D /* Ronome.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Ronome.xcodeproj; path = "../../メトロノーム/Ronome.xcodeproj"; sourceTree = "<group>"; };
+		CE5924A7256FD71B008F2A0D /* Ronome */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Ronome; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +148,8 @@
 				4E9778D92399C0F7005454A9 /* ExampleTests */,
 				4EF5318424E69B7000A9A672 /* ExampleUITests */,
 				4EEE35461CEBA0B500EAD308 /* Products */,
+				CE59249B256FD6C4008F2A0D /* Ronome.xcodeproj */,
+				CE5924A7256FD71B008F2A0D /* Ronome */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,7 +183,6 @@
 				4EDC7C84249247330076ED29 /* Package.swift */,
 				4EEE35541CEBA0B500EAD308 /* Info.plist */,
 				4EEE354C1CEBA0B500EAD308 /* Main.storyboard */,
-				4EEE35511CEBA0B500EAD308 /* LaunchScreen.storyboard */,
 				4EEE354F1CEBA0B500EAD308 /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
@@ -174,6 +197,16 @@
 				4EF5318724E69B7000A9A672 /* Info.plist */,
 			);
 			path = ExampleUITests;
+			sourceTree = "<group>";
+		};
+		CE59249C256FD6C4008F2A0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE5924A2256FD6C4008F2A0D /* Ronome.app */,
+				CE5924A4256FD6C4008F2A0D /* RonomeTests.xctest */,
+				CE5924A6256FD6C4008F2A0D /* RonomeUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +305,12 @@
 			mainGroup = 4EEE353C1CEBA0B500EAD308;
 			productRefGroup = 4EEE35461CEBA0B500EAD308 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CE59249C256FD6C4008F2A0D /* Products */;
+					ProjectRef = CE59249B256FD6C4008F2A0D /* Ronome.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4EEE35441CEBA0B500EAD308 /* Example */,
@@ -280,6 +319,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CE5924A2256FD6C4008F2A0D /* Ronome.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Ronome.app;
+			remoteRef = CE5924A1256FD6C4008F2A0D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE5924A4256FD6C4008F2A0D /* RonomeTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RonomeTests.xctest;
+			remoteRef = CE5924A3256FD6C4008F2A0D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE5924A6256FD6C4008F2A0D /* RonomeUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RonomeUITests.xctest;
+			remoteRef = CE5924A5256FD6C4008F2A0D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4E9778D62399C0F7005454A9 /* Resources */ = {
@@ -293,9 +356,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EEE35531CEBA0B500EAD308 /* LaunchScreen.storyboard in Resources */,
 				4EEE35501CEBA0B500EAD308 /* Assets.xcassets in Resources */,
 				4EEE354E1CEBA0B500EAD308 /* Main.storyboard in Resources */,
+				CE5924A8256FD71B008F2A0D /* Ronome in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,14 +429,6 @@
 				4EEE354D1CEBA0B500EAD308 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4EEE35511CEBA0B500EAD308 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4EEE35521CEBA0B500EAD308 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

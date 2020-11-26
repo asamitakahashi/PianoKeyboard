@@ -20,12 +20,12 @@ class ViewController: UIViewController, PianoKeyboardDelegate {
     @IBOutlet private var latchSwitch: UISwitch!
 
     private let audioEngine = AudioEngine()
-    private var demo: Demo?
+ //   private var demo: Demo?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        demo = Demo(keyboard: keyboard)
+  //      demo = Demo(keyboard: keyboard)
         keyboard.delegate = self
 
         keyNumberLabel.text = String(Int(keyNumberStepper.value))
@@ -37,17 +37,17 @@ class ViewController: UIViewController, PianoKeyboardDelegate {
         keyNumberStepper.accessibilityIdentifier = "keyNumberStepper"
         keyNumberStepper.isAccessibilityElement = true
 
-        octaveLabel.text = String(Int(octaveStepper.value))
-        octaveLabel.accessibilityIdentifier = "octaveLabel"
+//        octaveLabel.text = String(Int(octaveStepper.value))
+//        octaveLabel.accessibilityIdentifier = "octaveLabel"
 
-        octaveStepper.layer.cornerRadius = 8.0
-        octaveStepper.layer.masksToBounds = true
-        octaveStepper.accessibilityIdentifier = "octaveStepper"
-        octaveStepper.isAccessibilityElement = true
+//        octaveStepper.layer.cornerRadius = 8.0
+//        octaveStepper.layer.masksToBounds = true
+//        octaveStepper.accessibilityIdentifier = "octaveStepper"
+//       octaveStepper.isAccessibilityElement = true
 
-        showNotesSwitch.subviews[0].subviews[0].backgroundColor = .gray
-        showNotesSwitch.accessibilityIdentifier = "showNotesSwitch"
-        showNotesSwitch.isAccessibilityElement = true
+//        showNotesSwitch.subviews[0].subviews[0].backgroundColor = .gray
+//        showNotesSwitch.accessibilityIdentifier = "showNotesSwitch"
+//        showNotesSwitch.isAccessibilityElement = true
 
         latchSwitch.subviews[0].subviews[0].backgroundColor = .gray
         latchSwitch.accessibilityIdentifier = "latchSwitch"
@@ -63,7 +63,7 @@ class ViewController: UIViewController, PianoKeyboardDelegate {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
 
-        demo?.notes()
+//        demo?.notes()
         //demo?.chords()
     }
 

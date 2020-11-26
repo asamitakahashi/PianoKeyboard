@@ -27,13 +27,13 @@ class AudioEngine {
 
         // Reverb
         reverb.loadFactoryPreset(.mediumHall)
-        reverb.wetDryMix = 30.0
+        reverb.wetDryMix = 0.0
 
         // Delay
         delay.wetDryMix = 15.0
         delay.delayTime = 0.50
-        delay.feedback = 75.0
-        delay.lowPassCutoff = 16000.0
+        delay.feedback = 15.0
+        delay.lowPassCutoff = 16.0
 
         if engine.isRunning {
             print("Audio engine already running")
