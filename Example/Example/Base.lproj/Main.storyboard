@@ -99,9 +99,8 @@
                                                     </switch>
                                                 </subviews>
                                             </stackView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_2002-1" translatesAutoresizingMaskIntoConstraints="NO" id="Uyn-lI-nbs">
-                                                <rect key="frame" x="8" y="79" width="533" height="164"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="IMG_2002-1" translatesAutoresizingMaskIntoConstraints="NO" id="Uyn-lI-nbs">
+                                                <rect key="frame" x="8" y="100" width="533" height="135.5"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -110,6 +109,7 @@
                                             <constraint firstItem="1NO-g5-ki3" firstAttribute="top" secondItem="1S7-pm-SIJ" secondAttribute="top" id="bFB-FD-sFt"/>
                                             <constraint firstItem="O0f-fh-VQO" firstAttribute="leading" secondItem="1S7-pm-SIJ" secondAttribute="leading" constant="20" id="cR0-kj-pKp"/>
                                             <constraint firstItem="O0f-fh-VQO" firstAttribute="top" secondItem="1S7-pm-SIJ" secondAttribute="top" constant="20" id="d9V-NL-D5C"/>
+                                            <constraint firstItem="Uyn-lI-nbs" firstAttribute="top" secondItem="1S7-pm-SIJ" secondAttribute="top" constant="100" id="zyo-hD-KGq"/>
                                         </constraints>
                                     </view>
                                 </subviews>

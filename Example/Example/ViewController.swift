@@ -20,12 +20,12 @@ class ViewController: UIViewController, PianoKeyboardDelegate {
     @IBOutlet private var latchSwitch: UISwitch!
 
     private let audioEngine = AudioEngine()
- //   private var demo: Demo?
+    private var demo: Demo?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-  //      demo = Demo(keyboard: keyboard)
+
+      demo = Demo(keyboard: keyboard)
         keyboard.delegate = self
 
         keyNumberLabel.text = String(Int(keyNumberStepper.value))
