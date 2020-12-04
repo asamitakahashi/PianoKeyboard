@@ -22,21 +22,22 @@ class Demo {
         keyboard.setLabel(for: 60, text: "Do")
         keyboard.setLabel(for: 62, text: "Re")
         keyboard.setLabel(for: 64, text: "Mi")
-
-        for noteNumber in 65...72 {
+        
+//鍵盤の表記の対象を変えたい場合は60と120を変更する
+        for noteNumber in 60...120 {
             keyboard.setLabel(for: noteNumber, text: Note.name(for: noteNumber))
         }
 
-        keyboard.highlightKey(noteNumber: 72, color: UIColor.red.withAlphaComponent(0.7), resets: false)
+        keyboard.highlightKey(noteNumber: 60, color: UIColor.red.withAlphaComponent(0.7), resets: false)
         keyboard.highlightKey(noteNumber: 75, color: UIColor.red.withAlphaComponent(0.7), resets: false)
         keyboard.highlightKey(noteNumber: 79, color: UIColor.red.withAlphaComponent(0.7), resets: false)
     }
 
     func chords() {
-        autoHighlight(score: [["C4", "E4", "G4", "B4"],
-                              ["D4", "F#4", "A4"],
-                              ["E4", "G4", "B4"],
-                              ["D4", "F#4", "A4"]
+        autoHighlight(score: [["C1", "E1", "G1", "B1"],
+                              ["D1", "F#1", "A1"],
+                              ["E1", "G1", "B1"],
+                              ["D1", "F#1", "A1"]
                    ], position: 0, loop: true, tempo: 90.0, play: true)
     }
 

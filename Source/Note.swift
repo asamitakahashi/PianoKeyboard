@@ -16,7 +16,7 @@ public struct Note {
         let note: Substring
         let octave: Int
         if name.contains("-") {
-            note = name.dropLast(2)
+            note = name.dropLast(1)
             octave = name.count > 3 ? Int(name.dropFirst(2)) ?? 0 : Int(name.dropFirst(1)) ?? 0
         } else {
             note = name.dropLast()
