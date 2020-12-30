@@ -28,14 +28,14 @@ class ViewController: UIViewController, PianoKeyboardDelegate {
       demo = Demo(keyboard: keyboard)
         keyboard.delegate = self
 
-        keyNumberLabel.text = String(Int(keyNumberStepper.value))
-        keyNumberLabel.accessibilityIdentifier = "keyNumberLabel"
+//        keyNumberLabel.text = String(Int(keyNumberStepper.value))
+//        keyNumberLabel.accessibilityIdentifier = "keyNumberLabel"
 
-        keyNumberStepper.layer.cornerRadius = 8.0
-        keyNumberStepper.layer.masksToBounds = true
-        keyNumberStepper.value = Double(keyboard.numberOfKeys)
-        keyNumberStepper.accessibilityIdentifier = "keyNumberStepper"
-        keyNumberStepper.isAccessibilityElement = true
+//        keyNumberStepper.layer.cornerRadius = 8.0
+//        keyNumberStepper.layer.masksToBounds = true
+//        keyNumberStepper.value = Double(keyboard.numberOfKeys)
+//        keyNumberStepper.accessibilityIdentifier = "keyNumberStepper"
+//        keyNumberStepper.isAccessibilityElement = true
 
 //        octaveLabel.text = String(Int(octaveStepper.value))
 //        octaveLabel.accessibilityIdentifier = "octaveLabel"

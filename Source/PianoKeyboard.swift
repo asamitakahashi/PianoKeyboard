@@ -16,8 +16,8 @@ import UIKit
 @IBDesignable public class PianoKeyboard: UIView {
 
     //最大表示と最小表示
-    static let minNumberOfKeys = 61
-    static let maxNumberOfKeys = 61
+    static let minNumberOfKeys = 36
+    static let maxNumberOfKeys = 36
     
     @objc public weak var delegate: PianoKeyboardDelegate?
     private var keysArray: [PianoKey?] = []

@@ -23,6 +23,7 @@
 		4EF5317E24E694B200A9A672 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5317D24E694B200A9A672 /* Demo.swift */; };
 		4EF5318624E69B7000A9A672 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5318524E69B7000A9A672 /* ExampleUITests.swift */; };
 		4EF5319624E7280D00A9A672 /* UITestsHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5319524E7280D00A9A672 /* UITestsHelpers.swift */; };
+		CE432832259B5D150006E536 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE432831259B5D150006E536 /* MenuViewController.swift */; };
 		CE5924A8256FD71B008F2A0D /* Ronome in Resources */ = {isa = PBXBuildFile; fileRef = CE5924A7256FD71B008F2A0D /* Ronome */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +90,7 @@
 		4EF5318524E69B7000A9A672 /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		4EF5318724E69B7000A9A672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EF5319524E7280D00A9A672 /* UITestsHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestsHelpers.swift; sourceTree = "<group>"; };
+		CE432831259B5D150006E536 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		CE59249B256FD6C4008F2A0D /* Ronome.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Ronome.xcodeproj; path = "../../メトロノーム/Ronome.xcodeproj"; sourceTree = "<group>"; };
 		CE5924A7256FD71B008F2A0D /* Ronome */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Ronome; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,6 +174,7 @@
 				4EC552F81E5A0AA200526EF5 /* AudioEngine.swift */,
 				4EF5317D24E694B200A9A672 /* Demo.swift */,
 				4E55CBE124222CA50026CBF7 /* Sequence.swift */,
+				CE432831259B5D150006E536 /* MenuViewController.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 				4EF5317E24E694B200A9A672 /* Demo.swift in Sources */,
 				4EC552F91E5A0AA200526EF5 /* AudioEngine.swift in Sources */,
 				4EEE354B1CEBA0B500EAD308 /* ViewController.swift in Sources */,
+				CE432832259B5D150006E536 /* MenuViewController.swift in Sources */,
 				4EEE35491CEBA0B500EAD308 /* AppDelegate.swift in Sources */,
 				4EF5317C24E68F1400A9A672 /* FasciaView.swift in Sources */,
 				4EBA474822B05F2E0000113B /* Extensions.swift in Sources */,
