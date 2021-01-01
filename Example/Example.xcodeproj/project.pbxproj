@@ -25,6 +25,8 @@
 		4EF5319624E7280D00A9A672 /* UITestsHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5319524E7280D00A9A672 /* UITestsHelpers.swift */; };
 		CE432832259B5D150006E536 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE432831259B5D150006E536 /* MenuViewController.swift */; };
 		CE43283A259EF3AA0006E536 /* MetronomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE432839259EF3AA0006E536 /* MetronomeViewController.swift */; };
+		CE432840259F091A0006E536 /* snizzap2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE43283E259F091A0006E536 /* snizzap2.wav */; };
+		CE432841259F091A0006E536 /* snizzap1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE43283F259F091A0006E536 /* snizzap1.wav */; };
 		CE5924A8256FD71B008F2A0D /* Ronome in Resources */ = {isa = PBXBuildFile; fileRef = CE5924A7256FD71B008F2A0D /* Ronome */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +95,8 @@
 		4EF5319524E7280D00A9A672 /* UITestsHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestsHelpers.swift; sourceTree = "<group>"; };
 		CE432831259B5D150006E536 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		CE432839259EF3AA0006E536 /* MetronomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeViewController.swift; sourceTree = "<group>"; };
+		CE43283E259F091A0006E536 /* snizzap2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snizzap2.wav; sourceTree = "<group>"; };
+		CE43283F259F091A0006E536 /* snizzap1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snizzap1.wav; sourceTree = "<group>"; };
 		CE59249B256FD6C4008F2A0D /* Ronome.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Ronome.xcodeproj; path = "../../メトロノーム/Ronome.xcodeproj"; sourceTree = "<group>"; };
 		CE5924A7256FD71B008F2A0D /* Ronome */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Ronome; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -190,6 +194,8 @@
 				4EEE35541CEBA0B500EAD308 /* Info.plist */,
 				4EEE354C1CEBA0B500EAD308 /* Main.storyboard */,
 				4EEE354F1CEBA0B500EAD308 /* Assets.xcassets */,
+				CE43283F259F091A0006E536 /* snizzap1.wav */,
+				CE43283E259F091A0006E536 /* snizzap2.wav */,
 			);
 			name = "Supporting Files";
 			path = Example;
@@ -363,7 +369,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EEE35501CEBA0B500EAD308 /* Assets.xcassets in Resources */,
+				CE432840259F091A0006E536 /* snizzap2.wav in Resources */,
 				4EEE354E1CEBA0B500EAD308 /* Main.storyboard in Resources */,
+				CE432841259F091A0006E536 /* snizzap1.wav in Resources */,
 				CE5924A8256FD71B008F2A0D /* Ronome in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
