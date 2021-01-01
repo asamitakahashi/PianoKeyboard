@@ -33,6 +33,7 @@ class Demo {
         keyboard.highlightKey(noteNumber: 79, color: UIColor.red.withAlphaComponent(0.7), resets: false)
     }
 
+    
     func chords() {
         autoHighlight(score: [["C1", "E1", "G1", "B1"],
                               ["D1", "F#1", "A1"],

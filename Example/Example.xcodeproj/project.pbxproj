@@ -24,6 +24,7 @@
 		4EF5318624E69B7000A9A672 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5318524E69B7000A9A672 /* ExampleUITests.swift */; };
 		4EF5319624E7280D00A9A672 /* UITestsHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5319524E7280D00A9A672 /* UITestsHelpers.swift */; };
 		CE432832259B5D150006E536 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE432831259B5D150006E536 /* MenuViewController.swift */; };
+		CE43283A259EF3AA0006E536 /* MetronomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE432839259EF3AA0006E536 /* MetronomeViewController.swift */; };
 		CE5924A8256FD71B008F2A0D /* Ronome in Resources */ = {isa = PBXBuildFile; fileRef = CE5924A7256FD71B008F2A0D /* Ronome */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +92,7 @@
 		4EF5318724E69B7000A9A672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EF5319524E7280D00A9A672 /* UITestsHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestsHelpers.swift; sourceTree = "<group>"; };
 		CE432831259B5D150006E536 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CE432839259EF3AA0006E536 /* MetronomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeViewController.swift; sourceTree = "<group>"; };
 		CE59249B256FD6C4008F2A0D /* Ronome.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Ronome.xcodeproj; path = "../../メトロノーム/Ronome.xcodeproj"; sourceTree = "<group>"; };
 		CE5924A7256FD71B008F2A0D /* Ronome */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Ronome; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,6 +177,7 @@
 				4EF5317D24E694B200A9A672 /* Demo.swift */,
 				4E55CBE124222CA50026CBF7 /* Sequence.swift */,
 				CE432831259B5D150006E536 /* MenuViewController.swift */,
+				CE432839259EF3AA0006E536 /* MetronomeViewController.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ED397C41F8D798900FB1473 /* PianoKeyboard.swift in Sources */,
+				CE43283A259EF3AA0006E536 /* MetronomeViewController.swift in Sources */,
 				4ED397C31F8D798900FB1473 /* PianoKey.swift in Sources */,
 				4E55CBE224222CA50026CBF7 /* Sequence.swift in Sources */,
 				4EBA474622B05F0E0000113B /* NoteNameLayer.swift in Sources */,
