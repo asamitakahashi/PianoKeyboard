@@ -16,13 +16,14 @@ import UIKit
 @IBDesignable public class PianoKeyboard: UIView {
 
     //最大表示と最小表示
-    static let minNumberOfKeys = 36
-    static let maxNumberOfKeys = 36
+    static let minNumberOfKeys = 48
+    static let maxNumberOfKeys = 48
     
     @objc public weak var delegate: PianoKeyboardDelegate?
     private var keysArray: [PianoKey?] = []
     private var currentTouches = NSMutableSet(capacity: Int(maxNumberOfKeys))
-    private var _octave = 60
+    //octaveの数字を下げて変えると下のオクターブが表示される
+    private var _octave = 48
     private var _numberOfKeys = 24
     private var _blackKeyHeight: CGFloat = 0.60
     private var _blackKeyWidth: CGFloat = 0.80

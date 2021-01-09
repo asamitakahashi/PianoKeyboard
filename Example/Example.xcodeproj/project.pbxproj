@@ -27,7 +27,6 @@
 		CE43283A259EF3AA0006E536 /* MetronomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE432839259EF3AA0006E536 /* MetronomeViewController.swift */; };
 		CE432840259F091A0006E536 /* snizzap2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE43283E259F091A0006E536 /* snizzap2.wav */; };
 		CE432841259F091A0006E536 /* snizzap1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE43283F259F091A0006E536 /* snizzap1.wav */; };
-		CE5924A8256FD71B008F2A0D /* Ronome in Resources */ = {isa = PBXBuildFile; fileRef = CE5924A7256FD71B008F2A0D /* Ronome */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,27 +43,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 4EEE35441CEBA0B500EAD308;
 			remoteInfo = Example;
-		};
-		CE5924A1256FD6C4008F2A0D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE59249B256FD6C4008F2A0D /* Ronome.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FAD719DB1BEFDAB700243A05;
-			remoteInfo = Ronome;
-		};
-		CE5924A3256FD6C4008F2A0D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE59249B256FD6C4008F2A0D /* Ronome.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FAD719EF1BEFDAB800243A05;
-			remoteInfo = RonomeTests;
-		};
-		CE5924A5256FD6C4008F2A0D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE59249B256FD6C4008F2A0D /* Ronome.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FAD719FA1BEFDAB800243A05;
-			remoteInfo = RonomeUITests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -97,8 +75,6 @@
 		CE432839259EF3AA0006E536 /* MetronomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeViewController.swift; sourceTree = "<group>"; };
 		CE43283E259F091A0006E536 /* snizzap2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snizzap2.wav; sourceTree = "<group>"; };
 		CE43283F259F091A0006E536 /* snizzap1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snizzap1.wav; sourceTree = "<group>"; };
-		CE59249B256FD6C4008F2A0D /* Ronome.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Ronome.xcodeproj; path = "../../メトロノーム/Ronome.xcodeproj"; sourceTree = "<group>"; };
-		CE5924A7256FD71B008F2A0D /* Ronome */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Ronome; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,8 +132,6 @@
 				4E9778D92399C0F7005454A9 /* ExampleTests */,
 				4EF5318424E69B7000A9A672 /* ExampleUITests */,
 				4EEE35461CEBA0B500EAD308 /* Products */,
-				CE59249B256FD6C4008F2A0D /* Ronome.xcodeproj */,
-				CE5924A7256FD71B008F2A0D /* Ronome */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,16 +183,6 @@
 				4EF5318724E69B7000A9A672 /* Info.plist */,
 			);
 			path = ExampleUITests;
-			sourceTree = "<group>";
-		};
-		CE59249C256FD6C4008F2A0D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CE5924A2256FD6C4008F2A0D /* Ronome.app */,
-				CE5924A4256FD6C4008F2A0D /* RonomeTests.xctest */,
-				CE5924A6256FD6C4008F2A0D /* RonomeUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,12 +281,6 @@
 			mainGroup = 4EEE353C1CEBA0B500EAD308;
 			productRefGroup = 4EEE35461CEBA0B500EAD308 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = CE59249C256FD6C4008F2A0D /* Products */;
-					ProjectRef = CE59249B256FD6C4008F2A0D /* Ronome.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				4EEE35441CEBA0B500EAD308 /* Example */,
@@ -331,30 +289,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		CE5924A2256FD6C4008F2A0D /* Ronome.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Ronome.app;
-			remoteRef = CE5924A1256FD6C4008F2A0D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CE5924A4256FD6C4008F2A0D /* RonomeTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = RonomeTests.xctest;
-			remoteRef = CE5924A3256FD6C4008F2A0D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CE5924A6256FD6C4008F2A0D /* RonomeUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = RonomeUITests.xctest;
-			remoteRef = CE5924A5256FD6C4008F2A0D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4E9778D62399C0F7005454A9 /* Resources */ = {
@@ -372,7 +306,6 @@
 				CE432840259F091A0006E536 /* snizzap2.wav in Resources */,
 				4EEE354E1CEBA0B500EAD308 /* Main.storyboard in Resources */,
 				CE432841259F091A0006E536 /* snizzap1.wav in Resources */,
-				CE5924A8256FD71B008F2A0D /* Ronome in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

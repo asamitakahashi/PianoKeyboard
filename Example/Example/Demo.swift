@@ -24,7 +24,7 @@ class Demo {
         keyboard.setLabel(for: 64, text: "Mi")
         
 //鍵盤の表記の対象を変えたい場合は60と120を変更する
-        for noteNumber in 60...120 {
+        for noteNumber in 48...120 {
             keyboard.setLabel(for: noteNumber, text: Note.name(for: noteNumber))
         }
 
