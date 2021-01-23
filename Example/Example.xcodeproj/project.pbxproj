@@ -23,11 +23,14 @@
 		4EF5317E24E694B200A9A672 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5317D24E694B200A9A672 /* Demo.swift */; };
 		4EF5318624E69B7000A9A672 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5318524E69B7000A9A672 /* ExampleUITests.swift */; };
 		4EF5319624E7280D00A9A672 /* UITestsHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5319524E7280D00A9A672 /* UITestsHelpers.swift */; };
+		CE260B0E25BC63CC00D3AA86 /* SidemenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE260B0D25BC63CC00D3AA86 /* SidemenuViewController.swift */; };
+		CE260B2E25BC656100D3AA86 /* Sidemenu in Resources */ = {isa = PBXBuildFile; fileRef = CE260B2D25BC656100D3AA86 /* Sidemenu */; };
 		CE432832259B5D150006E536 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE432831259B5D150006E536 /* MenuViewController.swift */; };
 		CE43283A259EF3AA0006E536 /* MetronomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE432839259EF3AA0006E536 /* MetronomeViewController.swift */; };
 		CE432840259F091A0006E536 /* snizzap2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE43283E259F091A0006E536 /* snizzap2.wav */; };
 		CE432841259F091A0006E536 /* snizzap1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE43283F259F091A0006E536 /* snizzap1.wav */; };
 		CE8BA8A925AAF3A800416492 /* Menu2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8BA8A825AAF3A800416492 /* Menu2ViewController.swift */; };
+		CE8BA8AE25B4162200416492 /* Storyboard2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8BA8AD25B4162200416492 /* Storyboard2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,11 +75,14 @@
 		4EF5318524E69B7000A9A672 /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		4EF5318724E69B7000A9A672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EF5319524E7280D00A9A672 /* UITestsHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestsHelpers.swift; sourceTree = "<group>"; };
+		CE260B0D25BC63CC00D3AA86 /* SidemenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuViewController.swift; sourceTree = "<group>"; };
+		CE260B2D25BC656100D3AA86 /* Sidemenu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sidemenu; sourceTree = "<group>"; };
 		CE432831259B5D150006E536 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		CE432839259EF3AA0006E536 /* MetronomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeViewController.swift; sourceTree = "<group>"; };
 		CE43283E259F091A0006E536 /* snizzap2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snizzap2.wav; sourceTree = "<group>"; };
 		CE43283F259F091A0006E536 /* snizzap1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snizzap1.wav; sourceTree = "<group>"; };
 		CE8BA8A825AAF3A800416492 /* Menu2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu2ViewController.swift; sourceTree = "<group>"; };
+		CE8BA8AD25B4162200416492 /* Storyboard2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard2.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +156,10 @@
 		4EEE35471CEBA0B500EAD308 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				CE260B2D25BC656100D3AA86 /* Sidemenu */,
 				4EEE35481CEBA0B500EAD308 /* AppDelegate.swift */,
+				CE8BA8AD25B4162200416492 /* Storyboard2.storyboard */,
+				CE260B0D25BC63CC00D3AA86 /* SidemenuViewController.swift */,
 				4EEE354A1CEBA0B500EAD308 /* ViewController.swift */,
 				4EF5317B24E68F1400A9A672 /* FasciaView.swift */,
 				4EC552F81E5A0AA200526EF5 /* AudioEngine.swift */,
@@ -251,7 +260,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Gary Newby";
 				TargetAttributes = {
 					4E9778D72399C0F7005454A9 = {
@@ -305,10 +314,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE260B2E25BC656100D3AA86 /* Sidemenu in Resources */,
 				4EEE35501CEBA0B500EAD308 /* Assets.xcassets in Resources */,
 				CE432840259F091A0006E536 /* snizzap2.wav in Resources */,
 				4EEE354E1CEBA0B500EAD308 /* Main.storyboard in Resources */,
 				CE432841259F091A0006E536 /* snizzap1.wav in Resources */,
+				CE8BA8AE25B4162200416492 /* Storyboard2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE260B0E25BC63CC00D3AA86 /* SidemenuViewController.swift in Sources */,
 				4ED397C41F8D798900FB1473 /* PianoKeyboard.swift in Sources */,
 				CE43283A259EF3AA0006E536 /* MetronomeViewController.swift in Sources */,
 				4ED397C31F8D798900FB1473 /* PianoKey.swift in Sources */,
@@ -461,6 +473,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -485,7 +498,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -518,6 +531,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -536,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
